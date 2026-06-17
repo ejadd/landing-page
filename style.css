@@ -110,3 +110,32 @@ a {
     margin: 0;
     padding: 48px;
 }
+
+.quote-container {
+    display: flex;
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 84px;
+}
+
+.quote {
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    padding: 48px;
+}
+
+.source {
+    font-size: 24px;
+    font-weight: 900;
+    align-self: flex-end;
+}
+
