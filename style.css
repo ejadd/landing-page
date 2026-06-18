@@ -185,3 +185,14 @@ a {
 
     cursor: grab;
 }
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 24px;
+}
+
+.footer p {
+    margin: 0;
+    text-align: center;
+}
