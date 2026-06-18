@@ -69,6 +69,7 @@ a {
     border-radius: 12px;
     border: none;
     cursor: grab;
+    margin-top: 24px;
 }
 
 .info img {
