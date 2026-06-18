@@ -27,14 +27,14 @@ h1 {
     border-radius: 20%;
 }
 
-a,
-a:hover,
+.header-links a,
+.header-links a:hover,
 .hero-text p {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-a:hover {
+.header-links a:hover {
     text-decoration: underline;
 }
 
@@ -140,3 +140,48 @@ a {
     align-self: flex-end;
 }
 
+.cta {
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    padding: 64px 128px;
+}
+
+.cta-container {
+    padding: 24px 128px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    flex-grow: 1;
+    align-items: space-between;
+}
+
+.cta-text {
+    flex-grow: 1;
+    color: #E5E7EB;
+}
+
+.cta-text p {
+    font-size: 24px;
+}
+
+.cta-text h2 {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.cta-button {
+    align-self: center;
+    height: fit-content;
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
+    color: #E5E7EB;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px 24px;
+}
+
+.cta-button:hover {
+
+    cursor: grab;
+}
